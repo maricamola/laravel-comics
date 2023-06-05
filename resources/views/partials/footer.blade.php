@@ -56,10 +56,10 @@
         <nav>
           <ul>
             <li><a href="#"><img src="/img/footer-facebook.png" alt="logo facebook"></a></li>
-            <li><a href="#"><img src="footer-twitter.png" alt="logo twitter"> </a></li>
-            <li><a href="#"><img src="footer-youtube.png" alt="logo youtube"></a></li>
-            <li><a href="#"><img src="footer-pinterest.png" alt="logo pinterest"></a></li>
-            <li><a href="#"><img src="footer-periscope.png" alt="logo periscope"></a></li>
+            <li><a href="#"><img src="/img/footer-twitter.png" alt="logo twitter"> </a></li>
+            <li><a href="#"><img src="/img/footer-youtube.png" alt="logo youtube"></a></li>
+            <li><a href="#"><img src="/img/footer-pinterest.png" alt="logo pinterest"></a></li>
+            <li><a href="#"><img src="/img/footer-periscope.png" alt="logo periscope"></a></li>
           </ul>
         </nav>
       </div>
