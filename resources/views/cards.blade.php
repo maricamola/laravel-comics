@@ -16,10 +16,15 @@
 
 
         @foreach ($cards as $card)
+
         <div class="cards">
-            <img src="{{ $card['thumb'] }}" alt="{{ $card['title'] }}">
+            <a href= "{{ route('card_detail' , ['slug' => $card['slug']]) }}" >
+                        <img src="{{ $card['thumb'] }}" alt="{{ $card['title'] }}">
+            </a>
+
             <h4>{{ $card['title']}} </h4>
         </div>
+
         @endforeach
 
     </div>

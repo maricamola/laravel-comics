@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('home');
 })-> name('home');
 
@@ -65,3 +65,24 @@ Route::get('/cards', function () {
     $cards = config('cards.cards');
     return view('cards' , compact('cards'));
 })-> name('cards');
+
+Route::get('/dettaglio-serie/{slug}', function ($slug) {
+
+    $cards = config('cards');
+
+    $card_array = array_filter($cards, fn($item) => $item[ 'slug' ] === $slug);
+
+    $card = $card_array[array_key_first($card_array)];
+
+    return view('card_detail'  ,  compact('card') );
+})-> name('card_detail');
+
+// Route menu footer
+
+// Route::get('/terms', function () {
+//     return view('terms');
+// })-> name('terms');
+
+// // Route::get('/privacy', function () {
+// //     return view('privacy');
+// // })-> name('privacy');

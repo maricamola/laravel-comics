@@ -2,46 +2,134 @@
 return [
     "header_menu" => [
     [
-        'text'=> 'characters',
+        'text'=> 'Characters',
         'href'=> 'characters'
     ],
     [
-        'text'=> 'comics',
+        'text'=> 'Comics',
         'href'=> 'comics'
     ],
     [
-        'text'=> 'movies',
+        'text'=> 'Movies',
         'href'=> 'movies'
     ],
     [
-        'text'=> 'tv',
+        'text'=> 'Tv',
         'href'=> 'tv'
     ],
     [
-        'text'=> 'games',
+        'text'=> 'Games',
         'href'=> 'games'
     ],
     [
-        'text'=> 'collectibles',
+        'text'=> 'Collectibles',
         'href'=> 'collectibles'
     ],
     [
-        'text'=> 'videos',
+        'text'=> 'Videos',
         'href'=> 'videos'
     ],
     [
-        'text'=> 'fans',
+        'text'=> 'Fans',
         'href'=> 'fans'
     ],
     [
-        'text'=> 'news',
+        'text'=> 'News',
         'href'=> 'news'
     ],
     [
-        'text'=> 'shop',
+        'text'=> 'Shop',
         'href'=> 'shop'
     ],
+
+
 ],
+    "footer_dc" => [
+
+    [
+        'href' => '',
+        'text'=> 'Terms Of Use'
+    ],
+    [
+        'href'=>  '',
+        'text'=> 'Privacy police (New)'
+    ],
+    [
+        'href'=>'',
+        'text'=>  'Ad Choices'
+    ],
+    [
+        'href'=> '',
+        'text'=>  'Advertising'
+    ],
+    [
+        'href'=>'',
+        'text'=> 'Jobs'
+    ],
+    [
+        'href'=>  '',
+        'text'=>  'Subscriptions'
+    ],
+    [
+        'href'=> '',
+        'text'=>  'Talent Workshops'
+    ],
+    [
+        'href'=>  '',
+        'text'=>  'CPSC Certificates'
+    ],
+    [
+        'href'=> '',
+        'text'=>  'Ratings'
+    ],
+    [
+        'href'=>  '',
+        'text'=>  'Shop Help'
+    ],
+    [
+        'href'=> '',
+        'text'=>  'Contact Us'
+    ],
+    ],
+
+        "footer_sites" => [
+
+        [
+            'href' => '',
+            'text'=> 'DC'
+        ],
+        [
+            'href'=> '',
+            'text'=> 'MAD Magazine'
+        ],
+        [
+            'href'=> '',
+            'text'=>  'DC Kids'
+        ],
+        [
+            'href'=> '',
+            'text'=>  'DC Universe'
+        ],
+        [
+            'href'=> '',
+            'text'=>'DC Power Visa'
+        ],
+        ],
+
+        "footer_shop" => [
+            [
+                'href' => '',
+                'text'=> 'Shop DC'
+            ],
+            [
+                'href'=> '',
+                'text'=> 'Shop DC Collectibles'
+            ],
+        ]
 ];
+
+
+
+
 
 

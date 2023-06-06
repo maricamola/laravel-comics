@@ -12,7 +12,6 @@
     </div>
 
     <div class="container">
-        <h1> ciao ciao ciao</h1>
 
     </div>
 
