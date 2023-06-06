@@ -68,7 +68,7 @@ Route::get('/cards', function () {
 
 Route::get('/dettaglio-serie/{slug}', function ($slug) {
 
-    $cards = config('cards');
+    $cards = config('cards.cards');
 
     $card_array = array_filter($cards, fn($item) => $item[ 'slug' ] === $slug);
 
