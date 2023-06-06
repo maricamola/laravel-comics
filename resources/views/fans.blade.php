@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section('title')
-    Movies
+    Characters
 @endsection
 
 @section('content')

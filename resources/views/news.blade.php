@@ -1,7 +1,7 @@
 @extends('layout.main')
 
 @section('title')
-    Movies
+    News
 @endsection
 
 @section('content')

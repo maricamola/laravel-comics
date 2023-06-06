@@ -1,7 +1,7 @@
-{{-- @php
-$header_menu = config('menus.header_menu');
+@php
+$menu_header = config('menus.header_menu');
 @endphp
---}}
+
 
 <header>
     <header>
@@ -11,46 +11,13 @@ $header_menu = config('menus.header_menu');
 
     <nav>
         <ul>
-            <li>
-                <a class="{{Route::currentRouteName() === 'home' ? 'active' : ''}}" href="{{route('home')}}">Home</a>
-            </li>
-            <li>
-                <a class="{{Route::currentRouteName() === 'comics' ? 'active' : ''}}" href="{{route('comics')}}">comics</a>
-            </li>
-            <li>
-                <a class="{{Route::currentRouteName() === 'movies' ? 'active' : ''}}" href="{{route('movies')}}">movies</a>
-            </li>
-            <li>
-                <a class="{{Route::currentRouteName() === 'home' ? 'active' : ''}}" href="{{route('home')}}">Home</a>
-            </li>
-            <li>
-                <a class="{{Route::currentRouteName() === 'home' ? 'active' : ''}}" href="{{route('home')}}">Home</a>
-            </li>
-            <li>
-                <a class="{{Route::currentRouteName() === 'home' ? 'active' : ''}}" href="{{route('home')}}">Home</a>
-            </li>
-            <li>
-                <a class="{{Route::currentRouteName() === 'comics' ? 'active' : ''}}" href="{{route('comics')}}">comics</a>
-            </li>
-            <li>
-                <a class="{{Route::currentRouteName() === 'movies' ? 'active' : ''}}" href="{{route('movies')}}">movies</a>
-            </li>
-            <li>
-                <a class="{{Route::currentRouteName() === 'home' ? 'active' : ''}}" href="{{route('home')}}">Home</a>
-            </li>
-            <li>
-                <a class="{{Route::currentRouteName() === 'home' ? 'active' : ''}}" href="{{route('home')}}">Home</a>
-            </li>
 
-            {{-- @foreach ($menu_header as $link)
+            @foreach ($menu_header as $link)
             <li>
-            <a
-            href="{{route($link['href'])}}"
-            class="{{Route::currentRouteName() === $link['href'] ? 'active' : ''}}">
-            {{$link['text']}}
-            </a>
+            <a  href="{{ route($link['href']) }}" class="{{ Route::currentRouteName() === $link['href'] ? 'active' : ' ' }}">{{ $link['text'] }}</a>
             </li>
-            @endforeach --}}
+            @endforeach
+
         </ul>
     </nav>
     </header>
