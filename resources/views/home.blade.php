@@ -1,5 +1,9 @@
 @extends('layout.main')
 
+@section('title')
+    Home
+@endsection
+
 @section('content')
 
 <main>
@@ -8,13 +12,7 @@
     </div>
 
     <div class="container">
-
-    <ProductCard
-        v-for="(product, index) in products"
-        :key="index"
-        :image="product.thumb"
-        :productName="product.series"
-    />
+        <h1> ciao ciao ciao</h1>
 
     </div>
 
